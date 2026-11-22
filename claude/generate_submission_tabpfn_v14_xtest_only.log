@@ -1,0 +1,4 @@
+TABPFN_API_KEY absent : on tente l'authentification TabPFN mise en cache localement (~/.config/.tabpfn).
+Chargement de X_test uniquement (ni X_train ni y_train)...
+Pool de donneurs (X_test uniquement) : 37140 colonnes, 1000 colonnes holed_* à compléter
+Reprise : 0 faites, 1000 restantes

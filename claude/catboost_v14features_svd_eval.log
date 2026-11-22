@@ -1,0 +1,12 @@
+loaded in 10.8s, donors=20000
+  repeat 1/5: MAE =    66.82 W (n_val_cols=100, 149.5s)
+  repeat 2/5: MAE =    73.72 W (n_val_cols=100, 135.3s)
+  repeat 3/5: MAE =    67.91 W (n_val_cols=100, 129.4s)
+  repeat 4/5: MAE =    85.09 W (n_val_cols=100, 117.6s)
+  repeat 5/5: MAE =    74.61 W (n_val_cols=100, 126.9s)
+  -> Mean MAE over 5 repeats: 73.63 +/- 6.50 W
+
+catboost+v14features+svd 5x100 done in 658.6s
+MAE mean: 73.6298066467901 std: 6.502063800653115 per_repeat: [66.82306456123088, 73.71566954773307, 67.91168377559538, 85.0925768285452, 74.60603852084596]
+written: /home/nicolas/PycharmProjects/hackathon_enedis/claude/catboost_v14features_svd_results.json
+EXIT:0

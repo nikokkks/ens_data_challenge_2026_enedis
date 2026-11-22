@@ -1,0 +1,30 @@
+{
+  "protocol": "synthetic masking on X_test-only observed points (no X_train/y_train)",
+  "opts": {
+    "volatility_alpha": true,
+    "vol_weight": 0.8,
+    "periodic_alpha_strength": 1.0,
+    "extra_lags": [
+      24
+    ],
+    "neighbor_rolling": true
+  },
+  "n_clusters": 15,
+  "mask_frac": 0.15,
+  "n_cols": 100,
+  "n_repeats": 1,
+  "random_state": 42,
+  "n_donors": 37140,
+  "repeats": [
+    {
+      "repeat": 0,
+      "seed": 42,
+      "mae": 61.145463519947874,
+      "n_points": 14067,
+      "n_cols": 100,
+      "fallbacks": 0
+    }
+  ],
+  "mae_mean": 61.145463519947874,
+  "mae_std": 0.0
+}

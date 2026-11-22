@@ -1,0 +1,5 @@
+feaztures to add
+Valeurs non négatives : (y_pred < 0).sum().sum() == 0
+Colonnes dans le bon ordre (même ordre que new_output_sample.csv)
+
+		

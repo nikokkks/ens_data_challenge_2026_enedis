@@ -1,0 +1,38 @@
+{
+  "pca_k90": 251,
+  "pca_k95": 251,
+  "pca_cumvar": {
+    "1": 0.1737,
+    "5": 0.3618,
+    "10": 0.4326,
+    "20": 0.5115,
+    "50": 0.6393,
+    "100": 0.7491,
+    "200": 0.8555
+  },
+  "nn_best_corr_mean": 0.5180830402626826,
+  "nn_best_corr_median": 0.5076304916978274,
+  "nn_frac_above_0.8": 0.035,
+  "nn_frac_above_0.9": 0.0,
+  "svd_matrix_completion_rank": 60,
+  "svd_matrix_completion_5x100": {
+    "mean": 104.89501667117015,
+    "std": 11.584370176643132,
+    "per_repeat": [
+      92.08446334417852,
+      106.05692395540126,
+      93.28610759317245,
+      123.6056072687551,
+      109.44198119434347
+    ]
+  },
+  "reference_lightgbm_5x100_k100": {
+    "mean": 74.5,
+    "std": 7.11
+  },
+  "reference_tabpfn_v14_10x10": {
+    "mean": 63.24,
+    "std": 30.46,
+    "note": "protocole different, non comparable directement"
+  }
+}

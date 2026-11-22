@@ -1,0 +1,98 @@
+{
+  "profile": "full",
+  "saits_opts": {
+    "max_features": 90,
+    "aux_channels": true,
+    "window_len": 336,
+    "stride": 48,
+    "n_layers": 2,
+    "d_model": 256,
+    "n_heads": 4,
+    "d_k": 64,
+    "d_v": 64,
+    "d_ffn": 128,
+    "dropout": 0.1,
+    "epochs": 200,
+    "patience": null,
+    "batch_size": 16,
+    "device": null
+  },
+  "rows": [
+    {
+      "repeat": 1,
+      "tabpfn": 110.80297585167031,
+      "saits_raw": 175.58526943268316,
+      "saits_blend": 164.60788488480583,
+      "delta": 53.804909033135516
+    },
+    {
+      "repeat": 2,
+      "tabpfn": 63.62963986380833,
+      "saits_raw": 86.30068299439655,
+      "saits_blend": 81.0600548649528,
+      "delta": 17.430415001144475
+    },
+    {
+      "repeat": 3,
+      "tabpfn": 48.343071859550726,
+      "saits_raw": 73.80572391103078,
+      "saits_blend": 64.9199111438186,
+      "delta": 16.57683928426787
+    },
+    {
+      "repeat": 4,
+      "tabpfn": 30.19980237827602,
+      "saits_raw": 61.14495118350844,
+      "saits_blend": 54.35584703462161,
+      "delta": 24.156044656345593
+    },
+    {
+      "repeat": 5,
+      "tabpfn": 38.089470441838806,
+      "saits_raw": 97.89236471663742,
+      "saits_blend": 78.52158167145735,
+      "delta": 40.43211122961855
+    },
+    {
+      "repeat": 6,
+      "tabpfn": 47.45663180359362,
+      "saits_raw": 71.3852711452433,
+      "saits_blend": 66.16910083296699,
+      "delta": 18.712469029373366
+    },
+    {
+      "repeat": 7,
+      "tabpfn": 55.74083343657993,
+      "saits_raw": 78.04729610196362,
+      "saits_blend": 72.59552434915852,
+      "delta": 16.85469091257859
+    },
+    {
+      "repeat": 8,
+      "tabpfn": 47.134341706566005,
+      "saits_raw": 63.47618048130021,
+      "saits_blend": 58.59061904516993,
+      "delta": 11.456277338603925
+    },
+    {
+      "repeat": 9,
+      "tabpfn": 130.32027039533864,
+      "saits_raw": 202.0188038666945,
+      "saits_blend": 190.50405112464767,
+      "delta": 60.183780729309035
+    },
+    {
+      "repeat": 10,
+      "tabpfn": 60.63320617406105,
+      "saits_raw": 88.38006339129113,
+      "saits_blend": 81.25855341145304,
+      "delta": 20.625347237391985
+    }
+  ],
+  "mae_tabpfn": 64.72762355774503,
+  "mae_saits_raw": 102.78981532342287,
+  "mae_saits_blend": 93.94622650496493,
+  "wins_saits_blend": 1,
+  "wins_tabpfn": 98,
+  "ties": 1
+}

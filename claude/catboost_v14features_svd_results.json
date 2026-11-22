@@ -1,0 +1,26 @@
+{
+  "catboost_v14features_svd_5x100": {
+    "mean": 73.6298066467901,
+    "std": 6.502063800653115,
+    "per_repeat": [
+      66.82306456123088,
+      73.71566954773307,
+      67.91168377559538,
+      85.0925768285452,
+      74.60603852084596
+    ]
+  },
+  "reference_svd_matrix_completion_5x100": {
+    "mean": 104.9,
+    "std": 11.58
+  },
+  "reference_lightgbm_5x100_k100": {
+    "mean": 74.5,
+    "std": 7.11
+  },
+  "reference_tabpfn_v14_10x10": {
+    "mean": 63.24,
+    "std": 30.46,
+    "note": "protocole different, non comparable directement"
+  }
+}

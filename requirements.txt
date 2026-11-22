@@ -1,0 +1,13 @@
+pandas==2.3.3
+numpy==2.5.2
+scikit-learn==1.9.0
+tabpfn-client==0.4.1
+optuna==4.9.0
+schedulefree==1.4.1
+tqdm==4.67.3
+# Ajoutés pour la campagne de features T01-T50 (tabpfn_v15_features.py) :
+statsmodels
+pywavelets
+ruptures
+antropy
+stumpy
